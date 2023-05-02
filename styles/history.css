@@ -1,0 +1,161 @@
+@font-face {
+    font-family: BigCaslonMed;
+    src: url('Big Caslon Medium.ttf');
+}
+
+body {
+    background: #D9C4B1;
+  }
+
+@keyframes fade-in {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+#fade-in {
+    animation: fade-in 2s ease-out;
+}
+
+h1 {
+    font-family: BigCaslonMed;
+}
+.myheading {
+    display: inline;
+    margin-right: 45px;
+    margin-left: 45px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    color:#232B3F;
+    font-family: BigCaslonMed;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 63%;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+  
+.grid-item {
+    border: 1px solid #232B3F;
+    text-align: center;
+    margin: auto;
+}
+
+.grid-item2 {
+    border: 1px solid #232B3F;
+    text-align: center;
+    margin: auto;
+}
+  
+.grid-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.grid-text {
+    margin: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    font-family: BigCaslonMed;
+}
+  
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.text {
+    font-family: BigCaslonMed;
+    font-size: 30px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+}
+  
+.left-column {
+    display: flex;
+    justify-content: flex-end;
+    margin: 30px;
+    font-family: BigCaslonMed;
+    font-size: 30px;
+}
+  
+.right-column {
+    display: flex;
+    justify-content: flex-start;
+    margin: 30px;
+    font-family: BigCaslonMed;
+    font-size:30px;
+}
+  
+.image-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-column img {
+    border: 1px solid #232B3F;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.text-image-container {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+  
+.text-image {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+  
+.text-image img {
+    margin-right: 20px;
+    max-width: 63%;
+    height: auto;
+}
+  
+.text-next-to-image {
+    font-family: BigCaslonMed;
+    font-size: 20px;
+    flex: 1;
+}
+
+.text-under-image {
+    font-family: BigCaslonMed;
+    font-size: 20px;
+    align-items: center;
+}

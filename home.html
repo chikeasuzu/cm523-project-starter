@@ -1,51 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
- 
-    <title>The History of Haute Couture</title>
-    <!-- PUT A DESCRIPTION IN HERE -->
-    <meta name="description" content="describe content of the page here...." />
-    <!-- LINK TO NORMALIZE (FOR CONSISTENCY) -->
-    <link rel="stylesheet" href="styles.normalize.css" />
-    <!-- LINK TO ANY FRAMEWORK STYLES HERE-->
-    <!-- LINK TO YOUR STYLES -->
-    <link rel="stylesheet" href="styles/styles.css" />
-    <!-- LINK TO EXTERNAL JS LIBRARIES HERE -->
-    <!-- LINK TO YOUR JS HERE. NOTE THE DEFER ATTRIBUTE. -->
-    <script src="scripts/scripts.js" defer></script>
-  </head>
-  <body>
-    <div class="Heading">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/home.css">
+    <title>Home</title>
+</head>
+<body>
+    <div style="text-align: center; margin: 50px; border-style: double;">
+        <div style="padding-top: 10px;">
+            <img src="images/Haute History Logo.png" id="hhlogo" alt="Haute History Logo" width="10%">
+        </div>
+        <div style="padding-bottom: 10px">
+            <span class="myheading" id="homeheading">Home</span>
+            <span class="myheading" id="hauteheading">Haute</span>
+            <span class="myheading" id="historyheading">History</span>
+            <span class="myheading" id="hopeheading">Hope</span>
+        </div>
+        <hr>
+        <div class="texttitle">
+          <p>Welcome to Haute History</p>
+        <div class="slideshow-container">
+            <div class="mySlides fade active">
+                <a href="haute.html">
+                    <img src="images/Feature Banner - Links to Haute Page.png" id="hautebanner" alt="Featured Banner - Haute" style="width:70%">
+                </a>
+            </div>
 
-      <h1> Home Page</h1>
-  </div>
-  <img src="images/Haute History Logo.png" alt="Logo">
+            <div class="mySlides fade">
+                <a href="history.html">
+                    <img src="images/Featured Banner - Links to History Page.png" id="historybanner" alt="Featured Banner - History" style="width:70%">
+                </a>
+            </div>
+          
+            <div class="mySlides fade">
+                <a href="hope.html">
+                    <img src="images/Featured Banner - Links to Hope Page.png" id="hopebanner" alt="Featured Banner - Hope" style="width:70%">
+                </a>
+            </div>
+          
+            <div class="dots-container" style="padding-top: 10px">
+                <span class="dot active" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
 
-  <div class="nav">
-  <ul class="NavLinks">
-      <li><a href="history.html">history</a> </li> 
-      <li><a href="home.html">home</a> </li> 
-      <li><a href="hope.html">hope</a> </li> 
-  </ul>
-  <hr>
+        <hr>
+        <div style="padding: 10px">
+            <div class="text">Haute couture is high-end fashion that is custom-made 
+              and designed for individual clients on a case by case basis.</div>
+        </div>
+        
+        <hr>
+        <div style="padding: 10px">
+            <div class="text">It involves a meticulous process of creating one-of-a-kind, high-quality 
+              garments that are made by hand using traditional sewing techniques. Haute couture designs 
+              are created by skilled artisans who work in small ateliers, or workshops, and use the finest 
+              materials available to create pieces that are unique and of exceptional quality.</div>
+            <br>
+            <img src="images/Home 3.png" id="fade-in" alt="Replace this" width="50%">
+        </div>
 
-  <div class ="Origin">
-      <div class="origin-box-1"> First set of text</div>
-      <br>
-      <div class="origin-box-2"> First set of text</div>
-  </div>
-  <hr>
+        <hr>
+        <br>
+        <img src="images/Schiaperelli 2.png" id="fade-in" alt="Image 1" width="31%"/>
+        <div class="text" style="padding: 10px">Here is a brief history of haute couture fashion using Valentino, 
+          Schiaparelli, and Dior as examples</div>
+        <br>
 
-  <div class="More information"> 
+        <hr>
+        <div class="text-image-container">
+            <div class="text-image">
+                <img src="images/Schiaperelli Home.png" id="fade-in" alt="Image on the left">
+                <div class="text-next-to-image">Elsa Schiaparelli was a prominent designer in the 1920s 
+                  and 1930s who is best known for her innovative use of materials and bold designs. 
+                  She was one of the first designers to experiment with surrealism in fashion, collaborating with 
+                  artists like Salvador Dali to create unique, avant-garde designs. Schiaparelli's influence can be 
+                  seen in many designers today who continue to push the boundaries of traditional fashion.
+                
+                <p> <a href="history.html"> Click here to lean more about Schiaparelli's journey with haute couture.</a> </p>
+                </div>
+            </div>
+        </div>
 
-      <h1>More information</h1>
-      <h3>Image will be placed below</h3>
+        <hr>
+        <div class="text-image-container">
+            <div class="text-image">
+                <img src="images/Dior home.png" id="fade-in" alt="Image on the left">
+                <div class="text-next-to-image">Christian Dior was a French fashion designer who launched his first 
+                  collection in 1947, after the end of World War II. Dior's designs were characterized by a feminine 
+                  silhouette that emphasized the waist and full skirts, which contrasted with the boxy, masculine 
+                  styles that were popular during the war. Dior's designs were an instant success and helped to 
+                  reestablish Paris as the fashion capital of the world.
 
-      <img src="#coming-soon" alt="Image">
-  </div>
-  </div>   
-  </body>
+                  <p> <a href="history.html"> Click here to lean more about Dior's journey with haute couture.</a> </p>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+        <div class="text-image-container">
+            <div class="text-image">
+                <img src="images/Valentino home.png" id="fade-in" alt="Image on the left">
+                <div class="text-next-to-image">Valentino Garavani, known simply as Valentino, is an Italian 
+                  designer who rose to fame in the 1960s. His designs were characterized by their use of luxurious 
+                  fabrics, intricate embroidery, and attention to detail. Valentino's designs were a favorite among 
+                  high society and celebrities, and he has dressed many famous women, including Jackie Kennedy 
+                  Onassis and Elizabeth Taylor.
+
+                  <p> <a href="history.html"> Click here to lean more about Valentino's journey with haute couture.</a> </p>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+        <br>
+        <img src="images/Home bottom.png" id="fade-in" alt="Image 1" width="31%"/>
+        <div class="text" style="padding: 10px">These three designers are just a few examples of the many
+           influential figures in haute couture fashion throughout history. Each designer brought their 
+           own unique style and perspective to the industry, and their contributions continue to inspire 
+           and influence fashion today. 
+           <p> <a href="history.html"> Click here to learn more about the history they played a part in building. </a> </p> </div>
+        <br>
+    </div>
+    <script src="scripts/home.js"></script>
+</body>
 </html>

@@ -1,0 +1,142 @@
+@font-face {
+    font-family: BigCaslonMed;
+    src: url('Big Caslon Medium.ttf');
+}
+
+body {
+    background: #D9C4B1;
+  }
+
+h1 {
+    font-family: BigCaslonMed;
+}
+
+.texttitle{
+    font-family: BigCaslonMed;
+    font-size: 50px;
+}
+
+
+.text {
+    font-family: BigCaslonMed;
+    font-size: 20px;
+}
+
+.myheading {
+    display: inline;
+    margin-right: 45px;
+    margin-left: 45px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    color:#232B3F;
+    font-family: BigCaslonMed;
+}
+
+.mySlides {
+    display: none;
+}
+
+.mySlides.active {
+    display: block;
+}
+
+.dot.active {
+    background-color: #ffffff;
+}
+
+.dot {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: #232B3F;
+    border-radius: 50%;
+    transition: background-color 0.6s ease;
+    cursor: pointer;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade-in {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+#fade-in {
+    animation: fade-in 2s ease-out;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.grid-item {
+    border: 1px solid #232B3F;
+    text-align: center;
+    margin: auto;
+    width: 33%;
+}
+
+.grid-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.grid-text {
+    margin: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    font-family: BigCaslonMed;
+}
+
+.text-image-container {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+  
+.text-image {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+  
+.text-image img {
+    margin-right: 20px;
+    max-width: 30%;
+    height: auto;
+}
+  
+.text-next-to-image {
+    font-family: BigCaslonMed;
+    font-size: 20px;
+    flex: 1;
+}

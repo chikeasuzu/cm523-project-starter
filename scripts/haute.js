@@ -32,30 +32,6 @@ window.onload = function() {
 
     
     document.getElementById("hhlogo").addEventListener("click", function() {
-        window.location.href = "haute.html";
+        window.location.href = "home.html";
     });
-}
-
-function submitOpportunity() {
-	// Get the user's input
-	var name = document.getElementById("user_name").value;
-
-    if (name == "") {
-        document.getElementById("confirmation").innerHTML = "Please enter your name."
-        document.getElementById("confirmation").style.display = "block";
-    }
-    else {
-        try {
-            // Create the confirmation message
-            var message = "Thank you, " + name + "! Your submission has been received.";
-
-            // Display the confirmation message
-            document.getElementById("confirmation").innerHTML = message;
-            document.getElementById("confirmation").style.display = "block";
-        }
-        catch {
-            document.getElementById("confirmation").innerHTML = "An error occurred during the submission."
-            document.getElementById("confirmation").style.display = "block";
-        }
-    }
 }

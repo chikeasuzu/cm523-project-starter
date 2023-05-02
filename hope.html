@@ -4,9 +4,114 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles/hope.css">
+    <title>Hope</title>
 </head>
 <body>
-    <h1>This is where I discuss abour hope</h1>  
+    <div style="text-align: center; margin: 50px; border-style: double;">
+        <div style="padding-top: 10px;">
+            <img src="images/Haute History Logo.png" id="hhlogo" alt="Haute History Logo" width="10%">
+        </div>
+        <div style="padding-bottom: 10px">
+            <span class="myheading" id="homeheading">Home</span>
+            <span class="myheading" id="hauteheading">Haute</span>
+            <span class="myheading" id="historyheading">History</span>
+            <span class="myheading" id="hopeheading">Hope</span>
+        </div>
+
+        <hr>
+        <div class="text">To fuel the next generation of fashion, it starts with us.</div>
+        
+        <hr>
+        <div style="padding-top: 15px; padding-bottom: 15px;">
+            <img src="images/Hope Banner.png" id="fade-in" alt="Image" width="100%" />
+        </div>
+
+        <hr>
+        <div class="grid-container">
+            <div class="grid-item">
+                <div class="large-text"><a href=https://www.newschool.edu/parsons>Parsons, The New School for Design</a></div>
+                <div class="small-text">Location: New York City, NY</div>
+            </div>
+            <div class="grid-item">
+                <div class="large-text"><a href=https://www.fitnyc.edu>Fashion Institute of Technology</a></div>
+                <div class="small-text">Location: New York City, NY</div>
+            </div>
+            <div class="grid-item">
+                <div class="large-text"><a href=https://www.kent.edu/fashion>Kent State University</a></div>
+                <div class="small-text">Location: Kentucky, OH</div>
+            </div>
+            <div class="grid-item">
+                <div class="large-text"><a href=https://www.academyart.edu/art-degree/fashion>Academy of Art University</a></div>
+                <div class="small-text">San Francisco, CA</div>
+            </div>
+            <div class="grid-item">
+                <div class="large-text"><a href=https://www.scad.edu/academics/programs>Savannah College of Art and Design</a></div>
+                <div class="small-text">Savannah, GA</div>
+            </div>
+            <div class="grid-item">
+                <div class="large-text"><a href=https://www.risd.edu>Rhode Island School of Design</a></div>
+                <div class="small-text">Providence, RI</div>
+            </div>
+            <div class="grid-item">
+                <div class="large-text"><a href=https://www.otis.edu/s>Otis College of Art and Design</a></div>
+                <div class="small-text">Los Angeles, CA</div>
+            </div>
+            <div class="grid-item">
+                <div class="large-text"><a href=https://www.ccad.edu/academics/fashion-design>Columbus College of Art and Design</a></div>
+                <div class="small-text">Columbus, OH</div>
+            </div>
+        </div>
+          
+        <hr>
+        <form style="padding: 15px">
+            <p class="above-submit-text">We invite you to share any fashion opportunities with us! Please input your contact information below.</p>
+            <label class="submit-text" for="input">Name:</label>
+            <input type="text" id="user_name" name="user_name"><br><br>
+            <label class="submit-text" for="input">Email:</label>
+            <input type="text" id="user_email" name="user_email"><br><br>
+            <label class="submit-text" for="input">Fashion Opportunity:</label>
+            <input type="text" id="fashopp" name="fashopp"><br><br>
+            <button class="submit-text" type="button" onclick="submitOpportunity()">Submit</button>
+        </form>
+        <div id="confirmation" style="display: none; padding-bottom: 10px"></div>
+        <br>
+        <hr>
+        <div class="grid-container">
+            <div class="grid-item">
+                <div class="large-text">Source: Fashion Institute of Technology Website</div>
+                <div class="small-text">Website Source</div>
+            </div>
+            <div class="grid-item">
+                <div class="large-text">Source: Victoria and Albert Museum</div>
+                <div class="small-text">Website Source</div>
+            </div>
+            <div class="grid-item">
+                <div class="large-text">Source: Metropolitan Museum of Art</div>
+                <div class="small-text">Website Source</div>
+            </div>
+            <div class="grid-item">
+                <div class="large-text">Source: "The Little Dictionary of Fashion" by Christian Dior</div>
+                <div class="small-text">Website Source</div>
+            </div>
+            <div class="grid-item">
+                <div class="large-text">Source: "Elsa Schiaparelli: A Biography" by Meryle Secrest</div>
+                <div class="small-text">Website Source</div>
+            </div>
+            <div class="grid-item">
+                <div class="large-text"><a href="images/Chike Asuzu CM523 Design Documentation.pdf">Design Documentation</a></div>
+                <div class="small-text">Website Source</div>
+            </div>
+            <div class="grid-item">
+                <div class="large-text"><a href="images/Chike Asuzu - Final Project Proposal.pdf">Project Proposal</a></div>
+                <div class="small-text">Website Source</div>
+            </div>
+            <div class="grid-item">
+                <div class="large-text"><a href="images/Chike Asuzu Wireframes Website Project.pdf">Wireframes</a></div>
+                <div class="small-text">Website Source</div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/hope.js"></script>
 </body>
 </html>
